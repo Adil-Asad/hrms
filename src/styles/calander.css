@@ -1,0 +1,43 @@
+.calendar {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.weekdays {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px; /* Adjust this value as needed */
+}
+
+.days-above {
+  display: flex;
+  justify-content: space-between;
+}
+
+.day-above {
+  flex: 1;
+  text-align: center;
+}
+
+.week {
+  display: flex;
+}
+
+.day {
+  flex: 1;
+  border: 1px solid #ccc;
+  padding: 5px;
+  text-align: center;
+}
+
+.time-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 10px; /* Adjust this value as needed */
+}
+
+.time-row {
+  text-align: right;
+}

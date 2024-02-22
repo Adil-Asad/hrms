@@ -1,0 +1,87 @@
+@import url("./tailwind.css");
+@import url("./calander.css");
+
+.chip {
+  width: 300px;
+  height: 50px;
+  background: #738c79;
+
+  margin: 40px;
+  position: relative;
+
+  padding-inline-start: 40px;
+}
+
+.chip::after {
+  content: "";
+
+  position: absolute;
+  top: 14.9%;
+  left: 94.25%;
+
+  background: #738c79;
+  height: 70%;
+
+  aspect-ratio: 1;
+
+  rotate: 45deg;
+}
+
+.chip::before {
+  content: "";
+
+  position: absolute;
+  top: 14.5%;
+  right: 94%;
+
+  background: white;
+  height: 70%;
+
+  aspect-ratio: 1;
+
+  rotate: 45deg;
+}
+
+/* Custome */
+
+
+.column-header{
+  background-color: red;
+  border-top: none;
+}
+.rbc-event-content {
+  background-color: #f1f3f2;
+  color: #738c79;
+  padding: 4px;
+}
+.rbc-event-label {
+  background-color: #f1f3f2;
+  color: #738c79;
+  border: none;
+}
+
+element.style {
+  top: 58.3333%;
+  width: 100%;
+  height: 10.4167%;
+  left: 0%;
+}
+.rbc-day-slot .rbc-event,
+.rbc-day-slot .rbc-background-event {
+  border: 1px solid #265985;
+  display: flex;
+
+  min-height: 20px;
+  flex-flow: column wrap;
+  align-items: flex-start;
+  overflow: hidden;
+}
+.rbc-event,
+.rbc-day-slot .rbc-background-event {
+  background-color: #f1f3f2 !important;
+  border: none;
+}
+
+.theme {
+  background: red;
+}
